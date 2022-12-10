@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-	<title>Wybierz Mapę! - Geo Master</title>
+	<title>Strona Główna! - Geo Master</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
@@ -16,10 +16,8 @@ session_start();
 	<a href="settings.php">Ustawienia</a>
 	</div>
 	<br /><br /><br /><br />
-	<div class="maps">
-	<a href="games/03/index.php" class=map><br /><br />Polska/Powiat Chełmniński - Miasto (01)</a>
-	</div>
-
+	<a class=button href="eq/">Ekwipunek</a>
+	
 </body>
 <footer>
 

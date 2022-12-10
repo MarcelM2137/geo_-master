@@ -15,8 +15,9 @@ session_start();
 	<a href="friends.php">Znajomi</a>
 	<a href="settings.php">Ustawienia</a>
 	</div>
-	<br /><br />
-	<h1>Coming Soon...</h1>
+	<br /><br /><br /><br />
+	<center>
+	<a class=button href="eq/">Ekwipunek</a>
 </body>
 <footer>
 

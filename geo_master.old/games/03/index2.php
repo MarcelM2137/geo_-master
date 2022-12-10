@@ -8,7 +8,7 @@
 	session_start();
 	require_once("maps.php");
 	
-	$id2 = rand(0,count($maps)-1);
+	$id2 = rand(0,count($maps));
 	
 	while($id2 == $_SESSION['id2']) {
 		$id2 = rand(0,1);

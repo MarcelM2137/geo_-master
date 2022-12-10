@@ -20,6 +20,7 @@ session_start();
 	<center>
 	<a class=button href="cl.php">Changelog</a>
 	<a class=button_long href="select_mode.php">Pokaż stary tryb znajomych</a>
+	<a class=button href="problem.php">Kantor</a>
 	</center>
 
 </body>

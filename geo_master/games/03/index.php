@@ -8,7 +8,7 @@
 	session_start();
 	require_once("maps.php");
 	
-	$id2 = rand(0,count($maps));
+	$id2 = rand(0,count($maps)-1);
 	$_SESSION['id2'] = $id2;
 	
 	/*$polaczenie = new mysqli($host, $db_user, $db_password, $db_name);

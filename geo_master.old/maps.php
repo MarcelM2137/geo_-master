@@ -17,7 +17,7 @@ session_start();
 	</div>
 	<br /><br /><br /><br />
 	<div class="maps">
-	<a href="games/03/index.php" class=map><br /><br />Polska/Powiat Chełmniński - Miasto (01)</a>
+	<a href="games/03/index.php" class=map><br /><br />Polska/Powiat Chełmniński - Miasto (03)</a>
 	</div>
 
 </body>

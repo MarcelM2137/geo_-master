@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-	<title>Wybierz Mapę! - Geo Master</title>
+	<title>Strona Główna! - Geo Master</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
@@ -15,10 +15,8 @@ session_start();
 	<a href="friends.php">Znajomi</a>
 	<a href="settings.php">Ustawienia</a>
 	</div>
-	<br /><br /><br /><br />
-	<div class="maps">
-	<a href="games/03/index.php" class=map><br /><br />Polska/Powiat Chełmniński - Miasto (01)</a>
-	</div>
+	<br /><br />
+	<h1>Coming Soon...</h1>
 
 </body>
 <footer>

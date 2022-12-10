@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-	<title>Wybierz Mapę! - Geo Master</title>
+	<title>Strona Główna! - Geo Master</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
@@ -16,9 +16,11 @@ session_start();
 	<a href="settings.php">Ustawienia</a>
 	</div>
 	<br /><br /><br /><br />
-	<div class="maps">
-	<a href="games/03/index.php" class=map><br /><br />Polska/Powiat Chełmniński - Miasto (01)</a>
-	</div>
+    <h3>Wybierz tryb listy znajomych:</h3>
+    <center><a class=button href="select_mode.php">Zwykły</a><a class=button href="friends2.php">Nowy (beta)</a></center>
+	<?php
+	header("Location: friends2.php");
+	?>
 
 </body>
 <footer>
